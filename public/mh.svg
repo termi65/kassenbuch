@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="192"
+   height="192"
+   viewBox="0 0 50.799999 50.8"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="MH.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showborder="true"
+     showguides="false"
+     inkscape:zoom="3.9375701"
+     inkscape:cx="115.17255"
+     inkscape:cy="106.28382"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffff00;stroke:none;stroke-width:1.79562;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.4;stroke-dasharray:1.79562, 5.38685;paint-order:markers stroke fill"
+       id="rect1"
+       width="50.328735"
+       height="50.530319"
+       x="0.26877809"
+       y="0.067194961"
+       rx="5.3500376"
+       ry="7.8679843" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.6013px;line-height:0;font-family:'Segoe UI Historic';-inkscape-font-specification:'Segoe UI Historic';fill:#000080;stroke:none;stroke-width:3.14803;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.4;stroke-dasharray:3.14803, 9.4441;paint-order:markers stroke fill"
+       x="5.051465"
+       y="30.93339"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI Historic';-inkscape-font-specification:'Segoe UI Historic';fill:#000080;stroke:none;stroke-width:3.14803"
+         x="5.051465"
+         y="30.93339">MH</tspan></text>
+  </g>
+</svg>
