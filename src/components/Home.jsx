@@ -1,29 +1,29 @@
 import { useEffect, useState } from "react";
-import supabase from '../assets/supabase';
+// import supabase from '../assets/supabase';
 
 export default function Home() {
-    const [user, setUser] = useState(null);
-    const [loading, setLoading] = useState(true);
-    useEffect(() => {
-          const updateUser = (session) => {
-                setUser(session?.user ?? null);
-            };
+    // const [user, setUser] = useState(null);
+    // const [loading, setLoading] = useState(true);
+    // useEffect(() => {
+    //       const updateUser = (session) => {
+    //             setUser(session?.user ?? null);
+    //         };
 
-            // Initial: Session abfragen
-            supabase.auth.getSession().then(({ data: { session } }) => {
-                updateUser(session);
-                setLoading(false);
-            });
+    //         // Initial: Session abfragen
+    //         supabase.auth.getSession().then(({ data: { session } }) => {
+    //             updateUser(session);
+    //             setLoading(false);
+    //         });
 
-            // Auth-Status abonnieren
-            const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
-                updateUser(session);
-            });
+    //         // Auth-Status abonnieren
+    //         const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
+    //             updateUser(session);
+    //         });
 
-            // Cleanup bei Unmount
-            return () => listener.subscription.unsubscribe();
+    //         // Cleanup bei Unmount
+    //         return () => listener.subscription.unsubscribe();
 
-    },[]);
+    // },[]);
     return (
         <div>
             <h1>Kassenbuch</h1>
